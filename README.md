@@ -3,9 +3,9 @@
 
 Android-приложение для просмотра новостного ресурса lenta.ru
 При разработке были использованы следующие бибилотеки:
-*[DataDroid](https://github.com/foxykeep/DataDroid)
-*[PullToRefresh](https://github.com/chrisbanes/Android-PullToRefresh)
-*[UniversalImageLoader](https://github.com/nostra13/Android-Universal-Image-Loader)
+#[DataDroid](https://github.com/foxykeep/DataDroid)
+#[PullToRefresh](https://github.com/chrisbanes/Android-PullToRefresh)
+#[UniversalImageLoader](https://github.com/nostra13/Android-Universal-Image-Loader)
 
 Apk-файл приложения находится в папке apk
 
