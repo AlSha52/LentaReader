@@ -12,7 +12,7 @@ Apk-файл приложения находится в папке apk
 
 Текущая версия:
 
-![Screenshot](https://raw.github.com/GGSysoev/LentaReader/master/screen0.jpg)
+![Screenshot](https://raw.github.com/GGSysoev/LentaReader/master/screen0.jpg)&nbsp;&nbsp;
 ![Screenshot](https://raw.github.com/GGSysoev/LentaReader/master/screen1.jpg)<br>
 ![Screenshot](https://raw.github.com/GGSysoev/LentaReader/master/screen2.jpg)
 
