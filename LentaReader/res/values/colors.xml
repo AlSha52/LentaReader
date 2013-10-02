@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="text_color">#fbfbfb</color>
+    <color name="bg_color">#dedede</color>
+    <color name="item_not_clicked">#00000000</color>
+    <color name="item_clicked">#33000033</color>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LentaReader</string>
+    <string name="action_about">О приложении</string>
+    <string name="title_last24">Главное</string>
+    <string name="title_news">Новости</string>
+    <string name="title_top7">Топ 7</string>
+    <string name="title_articles">Все статьи</string>
+    <string name="title_columns">Оффтопики</string>
+    <string name="title_photo">Галереи</string>
+    <string name="list_no_items">Новостей не найдено</string>
+    <string name="action_refresh_items">Обновить</string>
+    <string name="topic_image">Фотография к статье</string>
+
+</resources>

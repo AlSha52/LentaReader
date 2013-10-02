@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <!-- android:background="@+drawable/listview_selector" -->
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="280px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"        
+        android:background="#aaaaaa"
+        android:scaleType="centerCrop" 
+        android:contentDescription="@string/topic_image"
+        />
+    
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@id/imageView1"
+          android:layout_centerHorizontal="true"
+          android:background="#9a000000"
+          android:gravity="center_vertical" 
+          android:paddingLeft="8dp"
+          android:paddingRight="8dp"
+          android:paddingTop="5dp"
+          android:paddingBottom="5dp">
+
+          <TextView
+              android:id="@+id/tv_date"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_alignParentTop="true"
+              android:textColor="@color/text_color"
+              android:singleLine="true"
+              android:textAppearance="?android:attr/textAppearanceSmall" />
+
+          <TextView
+              android:id="@+id/tv_category"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentTop="true"
+              android:layout_toLeftOf="@id/tv_date"
+              android:textColor="@color/text_color"
+              android:singleLine="true"
+              android:textAppearance="?android:attr/textAppearanceSmall" />
+
+          <TextView
+              android:id="@+id/tv_title"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentRight="true"
+              android:layout_below="@id/tv_category"
+              android:textColor="@color/text_color"
+              android:singleLine="true"
+              android:layout_marginTop="3dp"              
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textStyle="bold" />
+
+          <TextView
+              android:id="@+id/tv_description"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/tv_title"
+              android:layout_alignParentRight="true"
+              android:layout_alignParentLeft="true"
+              android:textColor="@color/text_color"
+              android:layout_marginTop="3dp"
+              android:maxLines="2"
+               />
+        
+    </RelativeLayout>
+
+      <TextView
+          android:id="@+id/tv_link"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:visibility="gone"/>
+
+</RelativeLayout>
