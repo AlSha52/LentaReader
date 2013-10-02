@@ -307,7 +307,7 @@ public class LentaActivity extends FragmentActivity implements
 						null, null, null, "_id");
 				mAdapter.swapCursor(c);
 				 
-				if (mAdapter.isEmpty()) {
+				if (c.getCount() == 0) {
 					emptyView.setVisibility(View.VISIBLE);
 					if (ptrv != null) {
 						ptrv.setVisibility(View.GONE);
@@ -351,7 +351,7 @@ public class LentaActivity extends FragmentActivity implements
 	            if (this.getActivity() != null) {
 	            	Toast.makeText(this.getActivity(), "Ошибка обновления данных", Toast.LENGTH_SHORT).show();
 	            }
-	            if (mListView.getCount() == 0) {
+	            if (mAdapter.getCursor().getCount() == 0) {
 					emptyView.setVisibility(View.VISIBLE);
 					if (ptrv != null) {
 						ptrv.setVisibility(View.GONE);
